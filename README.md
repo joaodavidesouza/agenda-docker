@@ -29,3 +29,5 @@ Aplicação Angular para gestão de compromissos, contatos, locais e usuários, 
 ```bash
 git clone https://github.com/joaodavidesouza/agenda-docker.git
 cd agenda-docker
+docker build -t agenda-app . 
+docker-compose up –d 
